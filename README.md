@@ -1,12 +1,14 @@
-# Enterprise Network Infrastructure in Cisco Packet Tracer
+# 🖧 Enterprise Network Infrastructure in Cisco Packet Tracer
 
-## Описание проекта
+## 📌 Описание проекта
 
 Данный проект представляет собой корпоративную сеть, реализованную в Cisco Packet Tracer с использованием VLAN-сегментации, межвлановой маршрутизации, DHCP, ACL, DNS, WEB и FTP сервисов.
 
+![Screenshot](images/Network.png)
+
 ---
 
-# Используемое оборудование
+# 🛠 Используемое оборудование
 
 ## Маршрутизатор
 - Cisco 2911 Router
@@ -18,14 +20,14 @@
 - 6 × Cisco Catalyst 2960-24TT
 
 ## End Devices
-- ПК пользователей
-- Принтеры
-- DNS/WEB Server
-- FTP/File Server
+- ПК пользователей 💻
+- Принтеры 🖨
+- DNS/WEB Server 🌐
+- FTP/File Server 📂
 
 ---
 
-# Топология сети
+# 🌍 Топология сети
 
 ```text
                      Router 2911
@@ -43,7 +45,7 @@ Printer  Printer  Printer   Printer             FILE
 
 ---
 
-# VLAN Архитектура
+# 🧩 VLAN Архитектура
 
 | VLAN | Department | Network |
 |------|------------|----------|
@@ -56,8 +58,7 @@ Printer  Printer  Printer   Printer             FILE
 
 ---
 
-
-# Реализованные технологии
+# ⚙ Реализованные технологии
 
 - VLAN
 - Inter-VLAN Routing
@@ -72,10 +73,17 @@ Printer  Printer  Printer   Printer             FILE
 
 ---
 
+# 🔐 Реализованные функции безопасности
+
+- VLAN Segmentation
+- ACL Filtering
+- SSH Access Control
+- Management VLAN
+- Ограничение межвланового доступа
 
 ---
 
-# Цели проекта
+# 🎯 Цели проекта
 
 Проект создавался для:
 - изучения Cisco Networking
@@ -86,12 +94,12 @@ Printer  Printer  Printer   Printer             FILE
 
 ---
 
-# Возможные улучшения
+# 🚀 Возможные улучшения
 
 В будущем планируется добавить:
 
 - NAT/PAT
-- Internet Simulation
+- Internet Simulation 🌍
 - Port Security
 - DHCP Snooping
 - Dynamic ARP Inspection
@@ -104,6 +112,8 @@ Printer  Printer  Printer   Printer             FILE
 
 ---
 
-# Леонов А.С.
+# 👨‍💻 Автор
+
+### Леонов А.С.
 
 Проект выполнен в рамках изучения сетевых технологий Cisco и enterprise network infrastructure.
